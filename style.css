@@ -1,0 +1,47 @@
+h1 {
+    color: white;
+    text-align : center;
+    font-size: 50px;
+}
+
+body {
+    background-color: #055902;
+    font-family: 'Dancing Script', cursive;
+}
+/* * {
+    border: solid;
+} */
+
+.menu{
+    background-color: Yellow;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+     background-color:black;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.item{
+   margin : 50px;
+   padding:20px;
+  background-color: #ffa500;
+}
+
+p,h2{
+    text-align: center;
+}
+
+.item:hover img{
+opacity: 0.73
+}
+
